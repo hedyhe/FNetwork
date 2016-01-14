@@ -650,11 +650,11 @@ package com.myflexhero.network.core.ui
 				boundaryChecked = true;
 				coordinateHandler(0);
 			}
-			var _loc_6:Number = NaN;
-			var _loc_9:Number = NaN;
-			var _loc_2:* = this.element;
-			var _loc_3:* = _loc_2.getStyle(Styles.VECTOR_SHAPE);
-			var _loc_4:* = _loc_2.getStyle(Styles.VECTOR_FILL);
+			var fillColor:Number = NaN;
+			var deep:Number = NaN;
+			var _e:* = this.element;
+			var vectorShape:* = _e.getStyle(Styles.VECTOR_SHAPE);
+			var vectorFill:* = _e.getStyle(Styles.VECTOR_FILL);
 			if(labelAttachment){
 				refreshLabelAttachment();
 			}
@@ -663,57 +663,57 @@ package com.myflexhero.network.core.ui
 				checkSize();
 				
 			//Vector使用width和height，不使用nodeWidth和nodeHeight。因为去掉了label占用的空间。
-			var _loc_5:* = this.element.vectorRect;
+			var vectorRect:* = this.element.vectorRect;
 			
-			ElementUtil.addPadding(_loc_5, element, Styles.VECTOR_PADDING);
+			ElementUtil.addPadding(vectorRect, element, Styles.VECTOR_PADDING);
 			if (element.getStyle(Styles.INNER_STYLE) == Consts.INNER_STYLE_DYE)
 			{
 				if (innerColor is Number)
 				{
-					if (!ElementUtil.hasDefault(_loc_2))
+					if (!ElementUtil.hasDefault(_e))
 					{
-						_loc_6 = Number(innerColor);
+						fillColor = Number(innerColor);
 					}
 				}
 				else
 				{
-					_loc_6 = _loc_2.getStyle(Styles.VECTOR_FILL_COLOR);
+					fillColor = _e.getStyle(Styles.VECTOR_FILL_COLOR);
 				}
 			}
-			var _loc_7:* = _loc_2.getStyle(Styles.VECTOR_OUTLINE_PATTERN);
-			if (_loc_7 != null)
+			var outlinePattern:* = _e.getStyle(Styles.VECTOR_OUTLINE_PATTERN);
+			if (outlinePattern != null)
 			{
-				var _loc_8:* = _loc_7.length > 0;
-				if (_loc_8)
+				var temp:* = outlinePattern.length > 0;
+				if (temp)
 				{
-					beginFill( _loc_4, _loc_6, _loc_5);
-					drawShape( _loc_5, _loc_3, false, false);
-					endFill( _loc_4);
-					drawShape( _loc_5, _loc_3, true, true);
+					beginFill( vectorFill, fillColor, vectorRect);
+					drawShape( vectorRect, vectorShape, false, false);
+					endFill( vectorFill);
+					drawShape( vectorRect, vectorShape, true, true);
 				}
 			}
 			else
 			{
-				beginFill(_loc_4, _loc_6, _loc_5);
-				drawShape( _loc_5, _loc_3, true, false);
-				endFill( _loc_4);
+				beginFill(vectorFill, fillColor, vectorRect);
+				drawShape( vectorRect, vectorShape, true, false);
+				endFill( vectorFill);
 			}
 			
-			if (_loc_4)
+			if (vectorFill)
 			{
-				_loc_9 = _loc_2.getStyle(Styles.VECTOR_DEEP);
-				if (_loc_9 != 0)
+				deep = _e.getStyle(Styles.VECTOR_DEEP);
+				if (deep != 0)
 				{
-					if (_loc_3 == Consts.SHAPE_RECTANGLE)
+					if (vectorShape == Consts.SHAPE_RECTANGLE)
 					{
-						GraphicDrawHelper.draw3DRect(graphics, _loc_6, _loc_9, _loc_5.x, _loc_5.y, _loc_5.width, _loc_5.height);
+						GraphicDrawHelper.draw3DRect(graphics, fillColor, deep, vectorRect.x, vectorRect.y, vectorRect.width, vectorRect.height);
 					}
 				}
 			}
-			_nodeWidth = _loc_5.width;
-			_nodeHeight =  _loc_5.height;
-			element.nodeWidth = _loc_5.width;
-			element.nodeHeight =  _loc_5.height;
+			_nodeWidth = vectorRect.width;
+			_nodeHeight =  vectorRect.height;
+			element.nodeWidth = vectorRect.width;
+			element.nodeHeight =  vectorRect.height;
 			return;
 		}
 		
