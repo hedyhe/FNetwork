@@ -1,8 +1,8 @@
 # FNetwork
-=================================== 
+============
 FNetwork is Flex/Flash based professional network topology UI component in this field.
 
-Introduction：
+Introduction(It is recommend to wait until the project of FNetworkTest is built before proceeding)：
 -----------------------------------  
 1、FNetwork可支持大规模节点(数千节点)拓扑关系实时运算并展示，主要支持网络拓扑关系、伪2D和逼真2物理资源等展示<br />
 2、代码开发于2013年，因官方SDK版本更新较快，所以代码仍需完善<br />
@@ -20,7 +20,7 @@ Introduction：
 Performance Testing：
 -----------------------------------  
 [MemoryTest.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetworkTest/blob/master/bin-release/MemoryTest.html)<br /><br />
-上千节点效果图(2500+)：
+上千节点效果图(2500+Nodes)：
 -----------------------------------  
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/test.png)<br /><br />
 
