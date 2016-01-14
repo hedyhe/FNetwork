@@ -115,7 +115,7 @@ package com.myflexhero.network
 	 * </pre>
 	 * Network图形组件中的很多功能和TWaver组件类似，所以TWaver的开发文档和帮助手册同样可作为部分参考.
 	 * <p>
-	 * If you find any bugs please contact our developer(Hedy):78474497#qq.com
+	 * If you find any bugs please contact our developer(Hedy):550561954#qq.com
 	 * </p>
 	 * @author Hedy
 	 */
