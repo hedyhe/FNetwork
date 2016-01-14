@@ -1,6 +1,6 @@
 # FNetwork
 =================================== 
-FNetwork is Flex/Flash based professional telecommunication UI component in this field.
+FNetwork is Flex/Flash based professional network topology UI component in this field.
 
 Introduction：
 -----------------------------------  
@@ -9,7 +9,6 @@ Introduction：
 3、API文档请参见/docs/asdoc-api下的[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
 4、核心类为：[Network.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/Network.as)和[NodeUI.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/ui/NodeUI.as)<br />
 5、更多示例参见FNetworkTest工程，简单示例如下：<br />
-
 
 绘画2D房间:<br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/room.png) <br /><br />
