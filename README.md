@@ -4,8 +4,8 @@ FNetwork is Flex/Flash based professional telecommunication UI component in this
 
 Introduction：
 -----------------------------------  
-1、FNetwork可支持大规模节点拓扑关系运算，短时间内迅速展示结果，主要支持拓扑关系展示、伪2D和逼真2物理资源展示
-2、代码开发于2013年，因官方SDK版本更新较快，所以代码仍需完善
+1、FNetwork可支持大规模节点拓扑关系运算，短时间内迅速展示结果，主要支持拓扑关系展示、伪2D和逼真2物理资源展示<br />
+2、代码开发于2013年，因官方SDK版本更新较快，所以代码仍需完善<br />
 3、开发使用文档请参见/docs/asdoc-api下的[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
 4、更多示例参见FNetworkTest工程，简单示例如下：<br />
 5、核心类为：[Network.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/Network.as)和[NodeUI.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/ui/NodeUI.as)<br />
