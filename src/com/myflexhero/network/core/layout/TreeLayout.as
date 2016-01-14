@@ -742,7 +742,7 @@ package com.myflexhero.network.core.layout
 		public function set siblingSpace(value:Number):void
 		{
 			_siblingSpace = value;
-//			initNodeCoordinate();
+			initNodeCoordinate();
 		}
 		
 		
@@ -760,7 +760,7 @@ package com.myflexhero.network.core.layout
 		public function set depthSpace(value:Number):void
 		{
 			_depthSpace = value;
-//			initNodeCoordinate();
+			initNodeCoordinate();
 		}
 	}
 }

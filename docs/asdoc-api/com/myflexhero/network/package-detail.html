@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0014)about:internet --><!-- saved from url=(0014)about:internet --><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="../../../style.css" type="text/css" media="screen"><link rel="stylesheet" href="../../../print.css" type="text/css" media="print"><link rel="stylesheet" href="../../../override.css" type="text/css"><title>com.myflexhero.network Summary</title></head><body><script language="javascript" type="text/javascript" src="../../../asdoc.js"></script><script language="javascript" type="text/javascript" src="../../../help.js"></script><script language="javascript" type="text/javascript" src="../../../cookies.js"></script><script language="javascript" type="text/javascript"><!--
+				asdocTitle = 'com.myflexhero.network package - [FNetwork API Documentation]';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<script type="text/javascript">
+			scrollToNameAnchor();
+		</script><table class="titleTable" cellpadding="0" cellspacing="0" id="titleTable" style="display:none"><tr><td class="titleTableTitle" align="left">API Documentation</td><td class="titleTableTopNav" align="right"><a href="../../../package-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Packages</a>&nbsp;|&nbsp;<a href="../../../class-summary.html" onclick="loadClassListFrame('../../../all-classes.html')">All Classes</a>&nbsp;|&nbsp;<a href="../../../all-index-A.html" onclick="loadClassListFrame('../../../index-list.html')">Index</a>&nbsp;|&nbsp;<a id="framesLink1" href="../../../index.html?com/myflexhero/network/package-detail.html&amp;com/myflexhero/network/class-list.html">Frames</a><a id="noFramesLink1" style="display:none" href="" onclick="parent.location=document.location"> No Frames </a></td><td class="titleTableLogo" align="right" rowspan="3"><img src="../../../images/logo.jpg" class="logoImage" alt=" Adobe Logo " title=" Adobe Logo "></td></tr><tr class="titleTableRow2"><td class="titleTableSubTitle" id="subTitle" align="left">com.myflexhero.network</td><td class="titleTableSubNav" id="subNav" align="right"><a href="package-detail.html#interfaceSummary"> Interfaces </a>&nbsp;| <a href="package-detail.html#classSummary">Classes</a></td></tr><tr class="titleTableRow3"><td colspan="3">&nbsp;</td></tr></table><script language="javascript" type="text/javascript" xml:space="preserve">
+				<!--
+				
+					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("com.myflexhero.network"); titleBar_setSubNav(false,false,false,false,false,false,false,false,false,false,false	,false,false,true,true,false);}	
+				-->
+			</script><div class="MainContent"><br><br><hr><a name="interfaceSummary"></a><div class="summaryTableTitle">Interfaces</div><table cellpadding="3" cellspacing="0" class="summaryTable"><tr><th>&nbsp;</th><th width="30%">Interface</th><th width="70%">Description</th></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><i><a href="IPipe.html">IPipe</a></i></td><td class="summaryTableLastCol">
+	 圆管接口类，定义了一些公用的方法。
+	 </td></tr></table><a name="classSummary"></a><div class="summaryTableTitle">Classes</div><table cellpadding="3" cellspacing="0" class="summaryTable"><tr><th>&nbsp;</th><th width="30%">Class</th><th width="70%">Description</th></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="AbstractPipe.html">AbstractPipe</a></td><td class="summaryTableLastCol">
+	 圆管的抽象类，继承自Follower类，拥有了跟随功能。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="AlarmBox.html">AlarmBox</a></td><td class="summaryTableLastCol">
+	 [目前告警未完成]继承自DataBox数据容器基类,作为单一的数据容器，仅存储Alarm类型的数据元素。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="AlarmState.html">AlarmState</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="BasicGroup.html">BasicGroup</a></td><td class="summaryTableLastCol">
+	 图形容器基类,扩展自Group容器，所有图形数据展示的操作通过覆盖Group的XXchild方法进行。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Consts.html">Consts</a></td><td class="summaryTableLastCol">
+	 系统常量，用于外观样式及布局支持。
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Data.html">Data</a></td><td class="summaryTableLastCol">
+	 所有数据的基类
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="DataBox.html">DataBox</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Defaults.html">Defaults</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Dummy.html">Dummy</a></td><td class="summaryTableLastCol">
+	 该类仅作为Grid的parent父类属性引用。创建该类并调用elementbox.add方法不会为其创建UI视图类。
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Element.html">Element</a></td><td class="summaryTableLastCol">
+	 元素基类,提供了风格样式支持。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="ElementBox.html">ElementBox</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Equipment.html">Equipment</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Floor.html">Floor</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Follower.html">Follower</a></td><td class="summaryTableLastCol">
+	 继承自Node类，通过设置host属性，使其拥有了跟随功能。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Grid.html">Grid</a></td><td class="summaryTableLastCol">
+	 该网格可以任意设置行、列数，并设置不同行、列的不同宽度、高度比，以及支持背景色等外观样式。
+	 Grid继承自Follower类，这意味着放置于其上的数据对象(如Node等)都将自动获得跟随行为。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Group.html">Group</a></td><td class="summaryTableLastCol">
+	 Group组件将一些Node节点(及其子类)看作是一个内部组，
+	 并绘画出一个椭圆(通过指定Styles.GROUP_SHAPE样式可使用常量中以Consts.SHAPE_开头的形状)的边界，
+	 该边界的宽和高值由内部子类的最小、最大x、y值决定。
+	 
+	 如果内部子类的最小和最大的x、y值发生了改变，GroupUI将重绘其边界。
+	 
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="ImageConst.html">ImageConst</a></td><td class="summaryTableLastCol">
+	 为数据元素提供了默认的内嵌图片。 
+	 请直接使用该类的字符串常量名称作为image属性值即可引用该图片资源。请参见Node类的image属性解释。
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="InteractionType.html">InteractionType</a></td><td class="summaryTableLastCol">
+	 该类定义了可供选择的用户交互类型.</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KPICard.html">KPICard</a></td><td class="summaryTableLastCol">
+	 可表示KPI的网格，继承自Grid，使用KPICardUI作为外观包装类。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Layer.html">Layer</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="LayerBox.html">LayerBox</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="LayerCanvas.html">LayerCanvas</a></td><td class="summaryTableLastCol">
+	 图形容器基类,扩展自Group容器，所有图形数据展示的操作通过覆盖Group的XXchild方法进行(替换hild为ata)。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Link.html">Link</a></td><td class="summaryTableLastCol">
+	 节点连接类，是基本视图的显示单位，主要用于网元等图形的连接显示。 
+	 该类为图形的显示提供了更多的支持，如支持动态设置节点间的连接，动态更改连接位置。  
+	 如果不设置任何值，将使用默认样式(Style).</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="LinkBox.html">LinkBox</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="MovablePanel.html">MovablePanel</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Network.html">Network</a></td><td class="summaryTableLastCol">
+	 组件基类，Network层只有一个单类(Network.as),作为整个图形组件的入口类，代表着整个图形组件。该类直接对用户开放，提供相应的公开属性和方法供用户调用。
+	 
+	 Network类提供以下功能点：
+	 
+	 设置自动布局器类型(树型自动布局、弹力自动布局)。
+	 设置可视对象是否可拖动。
+	 设置可视对象是否可改变尺寸大小。
+	 设置是否开启动态创建Link元素。
+	 导出当前图形界面为图片格式(png格式)。
+	 设置诸如背景颜色、透明度等属性。
+	 
+	 
+	 
+	 Network类实现了以下逻辑：
+	 
+	 完成对DataBox层的监听，调用ElementUI完成DataBox层数据的新增、修改、删除等事件处理。
+	 控制EelementUI层元素的新增、修改、删除操作，并调用其公开方法完成图形展示、图形清除等操作。
+	 
+	 
+	 Network容器关系如下:
+	 
+	 |rootGroup
+	 		|backgroundGroup
+	 		|scroller
+	 			|scrollerGroup
+	 				|dataGroup
+	 					|bottomGroup
+	 					|attachmentGroup
+	 							|nodeGroup
+	 							|linkGroup
+	 							|layerGroup
+	 					|topGroup
+	 		|customGroup
+	 
+	 Network图形组件中的很多功能和TWaver组件类似，所以TWaver的开发文档和帮助手册同样可作为部分参考.</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Node.html">Node</a></td><td class="summaryTableLastCol">
+	 节点类，是基本视图的显示单位，主要用于网元等图形的显示。
+	 该类为图形的显示提供了更多的支持，如支持鼠标拖拽、动态拖动图形以改变大小，动态设置节点间的连接(Link类)，并支持根据层显示对应的节点。
+	 如果不设置任何值，将默认字符串"node_image"(内嵌的图片,具体路径:ImageLoader.node_image)作为节点的显示图片.
+	 关于内嵌的全部图片，请查看ImageLoader类。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="ParallelogramGroup.html">ParallelogramGroup</a></td><td class="summaryTableLastCol">
+	 画45度的角的梯形平行四边形
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="RoundPipe.html">RoundPipe</a></td><td class="summaryTableLastCol">
+	 圆管,通过设置holeCount和isCenterHole属性，指定内部显示多少个圆孔。
+	 isCenterHole属性默认为true，意味着holeCount指定的最后一个圆孔将居中显示(第1-9个圆孔将呈圆环型均匀排列)。
+	 如果isCenterHole属性值为false，则holeCount指定的所有圆孔将呈圆环型撑满整个圆管。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Size.html">Size</a></td><td class="summaryTableLastCol">
+	  width属性和height属性构成的对象。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="SquarePipe.html">SquarePipe</a></td><td class="summaryTableLastCol">
+	 矩形管道。通过cellCount属性设置内部显示多少多少行、每一行显示多少列(请参阅cellCounts属性)，通过isHorizontal属性设置内部排列方式(请参阅isHorizontal属性)。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Styles.html">Styles</a></td><td class="summaryTableLastCol">
+	 CSS样式控制类,请根据对应的样式关键字前缀进行样式设置查询。部分属性目前并不支持。
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="SubNetwork.html">SubNetwork</a></td><td class="summaryTableLastCol">
+	 SubNetwork具有显示多层次关系的能力。
+	 默认将显示SubNetwork的默认外观，
+	 当双击该SubNetwork对象且其拥有子类时，
+	 将显示所有下一级的子类(继续双击子类中属于SubNetwork类型的对象将继续显示下一级)，
+	 并隐藏与当前SubNetwork类无关联的其他对象。
+	 
+	 数据元素的继承结构如下所示:
+	 
+	 Data(数据基类)
+	 	|Element(元素基类)
+	 	|Node(节点类)
+	 			|Follower(具有跟随功能的类)
+	 			|SubNetwork(具有显示多层次子类关系的类)
+	 			|AbstractPipe(具有内部显示不同形状的抽象类)
+	 				|RoundPipe(圆管,内部可显示父子关系的圆孔)
+	 				|SquarePipe(矩形管道,内部可显示不同大小的矩形)
+	 			|Group(内部作为一个整体，具有统一的边界外观)
+	 			|Grid(网格，可设置任意行、列)
+	 				|KPICard(可表示KPI的网格)
+	 	|Link(链接类，表示节点之类的关系)
+	 
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="TrapezoidGroup.html">TrapezoidGroup</a></td><td class="summaryTableLastCol">
+	 画75度的角平行四边形
+	 </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Tree.html">Tree</a></td><td class="summaryTableLastCol">
+	 通过对Tree的简单包装，实现节点导航树的展示。
+	 点击树中节点，拓扑界面中节点将被选中.
+	 需为该组件设置network属性
+	 </td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Utils.html">Utils</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="Wall.html">Wall</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="XMLSerializer.html">XMLSerializer</a></td><td class="summaryTableLastCol">
+	 序列化及反序列化当前的数据对象，并保存其外观样式就属性值。
+	 
+	 </td></tr></table><p></p><div><p></p><center class="copyright"><footer>MyFlexHero.com @ 2016 All Rights Reserved.</footer><br/>Thu Jan 14 2016, 07:43 PM +08:00  </center></div></div></body></html><!--MyFlexHero.com @ 2016 All Rights Reserved.<br/>Thu Jan 14 2016, 07:43 PM +08:00  -->

@@ -1,7 +1,5 @@
 package com.myflexhero.network.core.image
 {
-	import com.myflexhero.network.core.IImageAsset;
-	
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.display.DisplayObject;
