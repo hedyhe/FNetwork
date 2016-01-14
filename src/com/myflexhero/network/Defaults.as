@@ -1,0 +1,126 @@
+package com.myflexhero.network 
+{
+	final public class Defaults extends Object
+	{
+		public static var ICON_LINK:String = "link_icon";
+		public static var OVERVIEW_ANIMATE:Boolean = true;
+		public static var NODE_HEIGHT:Number = 50;
+		public static var OVERVIEW_FILL_COLOR:Object = 12112880;
+		public static var ICON_NODE:String = "node_icon";
+		public static var ATTACHMENT_PADDING_RIGHT:Number = 0;
+		public static var NETWORK_RESIZE_LINE_WIDTH:Number = 1;
+		public static var OVERVIEW_FILL_ALPHA:Number = 0.7;
+		public static var ATTACHMENT_GRADIENT_ALPHA:Number = 1;
+		public static var ATTACHMENT_FILL_ALPHA:Number = 1;
+		public static var ATTACHMENT_GRADIENT_COLOR:Number = 16777215;
+		public static var ATTACHMENT_FILL_COLOR:Number = 0;
+		public static var ATTACHMENT_CONTENT_WIDTH:Number = 30;
+		public static var NETWORK_EDIT_POINT_OUTLINE_WIDTH:Number = 1;
+		public static var TABLE_MAKE_VISIBLE_ON_SELECTED:Boolean = true;
+		public static var LAYER_DEFAULT_NAME:String = "default";
+		public static var TREE_MAKE_VISIBLE_ON_SELECTED:Boolean = true;
+		public static var NETWORK_DOUBLECLICK_TO_LINKBUNDLE:Boolean = true;
+		public static var NETWORK_REMOVE_ELEMENTUI_ON_INVISIBLE:Boolean = false;
+		public static var NETWORK_SELECT_MODE:String = "mix";
+		public static var NETWORK_EDIT_LINE_ALPHA:Number = 0.7;
+		public static var IMAGE_GROUP:String = "group_image";
+		public static var NETWORK_EDIT_LINE_COLOR:Number = 2652072;
+		public static var ICON_SHAPESUBNETWORK:String = "shapesubnetwork_icon";
+		public static var ATTACHMENT_CONTENT_HEIGHT:Number = 20;
+		public static var NETWORK_SELECT_OUTLINE_COLOR:Number = 2652072;
+		public static var NETWORK_DOUBLECLICK_TO_EMPTYSUBNETWORK:Boolean = true;
+		public static var IMAGE_NODE:String = "node_image";
+		public static var NETWORK_RESIZE_ANIMATE:Boolean = true;
+		public static var NETWORK_EDIT_POINT_SIZE:Number = 3;
+		public static var OVERVIEW_OUTLINE_ALPHA:Number = 1;
+		public static var NETWORK_KEYBOARD_REMOVE_ENABLED:Boolean = true;
+		public static var OVERVIEW_OUTLINE_COLOR:Number = 12112880;
+		public static var NETWORK_RESIZE_POINT_FILL_ALPHA:Number = 1;
+		public static var NETWORK_RESIZE_POINT_FILL_COLOR:Number = 16777215;
+		public static var CAPS_STYLE:String = Consts.CAPS_STYLE_ROUND;
+		public static var NETWORK_SELECT_FILL_ALPHA:Number = 0.4;
+		public static var ICON_SHAPELINK:String = "shapelink_icon";
+		public static var NETWORK_SELECT_FILL_COLOR:Number = 12112880;
+		public static var ICON_SHAPENODE:String = "shapenode_icon";
+		public static var NETWORK_EDIT_LINE_WIDTH:Number = 2;
+		public static var NETWORK_LAZYMOVE_OUTLINE_COLOR:Number = 2652072;
+		public static var ATTACHMENT_POSITION:String = "topright.topright";
+		public static var FONT_EMBED:Boolean = false;
+		public static var ATTACHMENT_OUTLINE_COLOR:Number = 0;
+		public static var ATTACHMENT_PADDING_TOP:Number = 0;
+		public static var ATTACHMENT_GRADIENT:String = null;
+		public static var NETWORK_MIN_ZOOM:Number = 0.1;
+		public static var ATTACHMENT_OUTLINE_ALPHA:Number = 1;
+		public static var ATTACHMENT_PADDING:Number = 0;
+		public static var NETWORK_SELECT_OUTLINE_WIDTH:Number = 1;
+		public static var ATTACHMENT_PADDING_BOTTOM:Number = 0;
+		public static var LINK_BUNDLE_AGENT_FUNCTION:Function = null;
+		public static var OVERVIEW_BACKGROUND_ALPHA:Number = 1;
+		public static var ATTACHMENT_POINTER_WIDTH:Number = 8;
+		public static var OVERVIEW_BACKGROUND_COLOR:Object = null;
+		public static var NETWORK_BACKGROUND_ALPHA:Object = null;
+		public static var PIXEL_HINTING:Boolean = true;
+		public static var NETWORK_BACKGROUND_COLOR:Object = null;
+		public static var NETWORK_KEYBOARD_SELECT_ENABLED:Boolean = true;
+		public static var NETWORK_MAX_ZOOM:Number = 5;
+		public static var OVERVIEW_OUTLINE_WIDTH:Number = 1;
+		public static var NETWORK_LAZYMOVE_FILL_ALPHA:Number = 0.4;
+		public static var ATTACHMENT_YOFFSET:Number = 0;
+		public static var ATTACHMENT_CONTENT_XSCALE:Number = 1;
+		public static var NETWORK_LAZYMOVE_FILL_COLOR:Number = 12112880;
+		public static var ICON_GROUP:String = "group_icon";
+		public static var NETWORK_SENDTOTOP_ON_SELECTED:Boolean = true;
+		public static var ATTACHMENT_FILL:Boolean = false;
+		public static var NETWORK_LAZYMOVE_OUTLINE_WIDTH:Number = 1;
+		public static var NETWORK_RESIZE_POINT_OUTLINE_COLOR:Number = 0;
+		public static var NODE_WIDTH:Number = 50;
+		public static var OVERVIEW_PADDING:Number = 1;
+		public static var ATTACHMENT_OUTLINE_WIDTH:Number = -1;
+		public static var ATTACHMENT_PADDING_LEFT:Number = 0;
+		public static var NETWORK_SELECTION_TOLERANCE:uint = 2;
+		public static var NETWORK_DOUBLECLICK_TO_SUBNETWORK:Boolean = true;
+		public static var NETWORK_SUBNETWORK_ANIMATE:Boolean = true;
+		public static var ATTACHMENT_DIRECTION:String = "right";
+		public static var OVERVIEW_SELECT_COLOR:Number = 255;
+		public static var OVERVIEW_SELECT_ALPHA:Number = 1;
+		public static var ICON_GRID:String = "grid_icon";
+		public static var FONT_FAMILY:Object = "Microsoft Yahei";
+		public static var TABLE_ITERATE_MODE:String = "forward";
+		public static var NETWORK_DOUBLECLICK_TO_UPSUBNETWORK:Boolean = true;
+		public static var IMAGE_SUBNETWORK:String = "subnetwork_image";
+		public static var ICON_SUBNETWORK:String = "subnetwork_icon";
+		public static var JOINT_STYLE:String = Consts.JOINT_STYLE_ROUND;
+		public static var NETWORK_RESIZE_POINT_OUTLINE_WIDTH:Number = 1;
+		public static var SCALE_MODE:String = Consts.SCALE_MODE_NORMAL;
+		public static var ICON_BUS:String = "bus_icon";
+		public static var ATTACHMENT_CORNER_RADIUS:Number = 8;
+		public static var OVERVIEW_SELECT_WIDTH:Number = 1;
+		public static var ICON_DATA:String = "data_icon";
+		public static var NETWORK_RESIZE_LINE_COLOR:Number = 0;
+		public static var ATTACHMENT_CONTENT_YSCALE:Number = 1;
+		public static var LOADER_CONTEXT_CHECK_POLICY_FILE:Boolean = false;
+		public static var NETWORK_EDIT_POINT_OUTLINE_COLOR:Number = 0;
+		public static var NETWORK_TRANSPARENT_SELECTION_ENABLE:Boolean = true;
+		public static var LAYER_DEFAULT_ID:Object = "default";
+		public static var NETWORK_LAZYMOVE_FILL:Boolean = true;
+		public static var NETWORK_MAKE_VISIBLE_ON_SELECTED:Boolean = true;
+		public static var ATTACHMENT_XOFFSET:Number = 0;
+		public static var NETWORK_EDIT_POINT_FILL_ALPHA:Number = 1;
+		public static var NETWORK_LAZYMOVE_ANIMATE:Boolean = true;
+		public static var NETWORK_EDIT_POINT_FILL_COLOR:Number = 16776960;
+		public static var TREE_CHECK_MODE:String = null;
+		public static var NETWORK_DOUBLECLICK_TO_GROUPEXPAND:Boolean = true;
+		public static var TREE_ENABLE_TRISTATE_CHECKBOX:Boolean = false;
+		public static var ATTACHMENT_POINTER_LENGTH:Number = 10;
+		public static var ICON_LINKSUBNETWORK:String = "linksubnetwork_icon";
+		public static var FONT_SIZE:Object = 12;
+		public static var NETWORK_NO_AGENT_LINK_VISIBLE:Boolean = false;
+		public static var ICON_DATABOX:String = "databox_icon";
+		
+		public function Defaults()
+		{
+			return;
+		}
+		
+	}
+}

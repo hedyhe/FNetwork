@@ -1,0 +1,14 @@
+﻿1.cmd下切换至以下目录:
+	D:\Program Files (x86)\FLEXBUILD\Adobe Flash Builder 4.5\sdks\4.5.0.20967\bin
+
+2.执行以下命令(请更改相应的输入输出目录):
+	asdoc -source-path=. -doc-sources="D:/github/FNetwork/trunksrc" -output="D:\github\FNetwork\trunk\docs\asdoc-api"  -window-title="[FNetwork API Documentation]" -footer="MyFlexHero.com @ 2016 All Rights Reserved."
+
+
+
+
+
+[成功运行应该如下所示]
+C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.5\sdks\4.5.0.20967\bin>asdoc -source-path=. -doc-sources="F:/MyeclipseWorkspaces/FNetwork/src" -output="F:\MyeclipseWorkspaces\FNetwork\docs\asdoc-api"  -window-title="[FNetwork Framework API Documentation]"  -footer="Myflexhero.com @ 2016 All Rights Reserved."
+正在加载配置文件“C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.5\sdks\4.5.0.20967\frameworks\flex-config.xml”
+文档创建在“F:\MyeclipseWorkspaces\FNetwork\docs\asdoc-api\”中

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="cn.com.teacherwork.core.ui.LinkLabelAttachment"/>
+    <classEntry path="cn.com.teacherwork.event.IndexChangeEvent"/>
+    <classEntry path="cn.com.teacherwork.event.SelectionChangeEvent"/>
+    <classEntry path="cn.com.teacherwork.MovablePanel"/>
+    <classEntry path="cn.com.teacherwork.core.util.select.SelectHelper"/>
+    <classEntry path="cn.com.teacherwork.Tree"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
