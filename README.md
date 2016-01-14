@@ -1,8 +1,8 @@
 # FNetwork
 ============
-FNetwork is Flex/Flash based professional network topology UI component in this field.
-
-Introduction(It is recommend to wait until the project of FNetworkTest is built before proceeding)：
+FNetwork is Flex/Flash based professional network topology UI component in this field.<br>
+It is recommend to wait until the project of FNetworkTest is built before proceeding.
+Introduction：
 -----------------------------------  
 1、FNetwork可支持大规模节点(数千节点)拓扑关系实时运算并展示，主要支持网络拓扑关系、伪2D和逼真2物理资源等展示<br />
 2、代码开发于2013年，因官方SDK版本更新较快，所以代码仍需完善<br />
