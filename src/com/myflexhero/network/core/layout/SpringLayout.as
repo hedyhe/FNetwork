@@ -43,7 +43,7 @@ package com.myflexhero.network.core.layout
 	 * @see SpringLayout.autoFit
 	 * @see com.myflexhero.network.core.layout.TreeLayout
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 */
 	public class SpringLayout extends CustomLayout implements IForceDirectedLayout
 	{

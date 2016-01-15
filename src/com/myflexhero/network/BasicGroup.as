@@ -23,7 +23,7 @@ package com.myflexhero.network
 	/**
 	 * 图形容器基类,扩展自Group容器，所有图形数据展示的操作通过覆盖Group的XXchild方法进行。
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 */
 	public class BasicGroup extends Group
 	{

@@ -7,7 +7,7 @@ package com.myflexhero.network.event
 	/**
 	 * 界面最值节点事件类
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 */
 	public class MaxPointEvent extends Event
 	{

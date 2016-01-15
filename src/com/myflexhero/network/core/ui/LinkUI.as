@@ -27,7 +27,7 @@ package com.myflexhero.network.core.ui
 	 * @see com.myflexhero.network.core.ui.ElementUI
 	 * @see com.myflexhero.network.core.ui.NodeUI
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 */
 	public class LinkUI extends ElementUI
 	{

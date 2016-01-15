@@ -26,7 +26,7 @@ package com.myflexhero.network.core.layout
 	 * <br>
 	 * 仍需修改以支持多个顶级节点群。
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 * @see com.myflexhero.network.core.layout.SpringLayout
 	 */
 	public class TreeLayout extends CustomLayout

@@ -20,7 +20,7 @@ package com.myflexhero.network.event
 	 * </ul>
 	 * </p>
 	 * @author Hedy<br>
-	 * 如发现Bug请报告至email: 550561954@qq.com 
+	 * 550561954#qq.com 
 	 */
 	public class DataBoxChangeEvent extends Event
 	{
