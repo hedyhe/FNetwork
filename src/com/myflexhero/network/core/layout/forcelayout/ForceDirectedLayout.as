@@ -1,7 +1,5 @@
 package com.myflexhero.network.core.layout.forcelayout{
-
 import avmplus.USE_ITRAITS;
-
 import com.myflexhero.network.Link;
 import com.myflexhero.network.Node;
 import com.myflexhero.network.core.layout.forcelayout.IForEachNode;
@@ -258,6 +256,16 @@ public class ForceDirectedLayout implements IForEachEdge,IForEachNode,IForEachNo
 	}
 	}
 }
+
+
+//这里暂时注释掉使用,因为x、y值已经提交了，通过SpringLayout中每次timer调用完毕后进行批量提交更新视图。
+//class Committer implements IForEachNode {
+//	 public function forEachNode( n: Node ): void {
+//	 	n.commit();
+//	 }
+//}
+
+
 import com.myflexhero.network.Node;
 import com.myflexhero.network.core.layout.forcelayout.IForEachNode;
 
@@ -269,10 +277,3 @@ class Refresher implements IForEachNode {
 	 	n.refresh();
 	 }
 }
-
-//这里暂时注释掉使用,因为x、y值已经提交了，通过SpringLayout中每次timer调用完毕后进行批量提交更新视图。
-//class Committer implements IForEachNode {
-//	 public function forEachNode( n: Node ): void {
-//	 	n.commit();
-//	 }
-//}
