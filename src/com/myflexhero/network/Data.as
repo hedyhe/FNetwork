@@ -12,7 +12,7 @@ package com.myflexhero.network
 	/**
 	 * 所有数据的基类
 	 * @author Hedy<br>
-	 * 550561954#qq.com  
+	 * 550561954#QQ.com  
 	 */
 	public class Data extends EventDispatcher implements IData
 	{

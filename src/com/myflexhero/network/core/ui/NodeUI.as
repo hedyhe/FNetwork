@@ -21,7 +21,7 @@ package com.myflexhero.network.core.ui
 	import mx.core.mx_internal;
 	
 	import spark.filters.GlowFilter;
-
+ 
 	use namespace mx_internal;
 	
 	/**
@@ -29,7 +29,7 @@ package com.myflexhero.network.core.ui
 	 * @see com.myflexhero.network.core.ui.ElementUI
 	 * @see com.myflexhero.network.core.ui.LinkUI
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class NodeUI extends ElementUI
 	{

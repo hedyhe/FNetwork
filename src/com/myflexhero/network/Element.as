@@ -8,7 +8,7 @@ package com.myflexhero.network
 	/**
 	 * 元素基类,提供了风格样式支持。
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class Element extends Data implements IElement
 	{

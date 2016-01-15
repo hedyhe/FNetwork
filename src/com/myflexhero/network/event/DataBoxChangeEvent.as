@@ -20,7 +20,7 @@ package com.myflexhero.network.event
 	 * </ul>
 	 * </p>
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class DataBoxChangeEvent extends Event
 	{

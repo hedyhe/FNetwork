@@ -15,7 +15,7 @@ import mx.core.UIComponent;
  /** 
   * 对布局中的数据进行管理
   * @author Hedy<br>
-  * 550561954#qq.com 
+  * 550561954#QQ.com 
   */
 public class GraphDataProvider implements IDataProvider {
 //	private var nodeStore: Object/*{id: GraphNode}*/ = new Object();

@@ -20,7 +20,7 @@ package com.myflexhero.network.core.image
 	 * 该类提供了图片加载及内嵌图片管理功能。<br>
 	 * 默认自带了部分内嵌图片,都以.Class的格式作为永久变量存储，具体内容名称请在编辑器中键入"ImageConst."并根据该类提供的提示输入信息进行查看(通过ImageLoader类依然可以,保持了旧版本兼容)。
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class ImageLoader
 	{

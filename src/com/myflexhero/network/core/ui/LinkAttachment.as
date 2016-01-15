@@ -16,7 +16,7 @@ package com.myflexhero.network.core.ui
 	/**
 	 * 设置属性及画连接
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class LinkAttachment extends Attachment
 	{

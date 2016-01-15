@@ -7,7 +7,7 @@ package com.myflexhero.network.event
 	/**
 	 * 图形加载事件类
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class ImageLoadEvent extends Event
 	{

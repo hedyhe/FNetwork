@@ -39,7 +39,7 @@ package com.myflexhero.network
 	 * @see com.myflexhero.network.Styles
 	 * @date  02/15/2011
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com 
 	 */
 	public class Node extends Element
 	{

@@ -115,7 +115,7 @@ package com.myflexhero.network
 	 * </pre>
 	 * Network图形组件中的很多功能和TWaver组件类似，所以TWaver的开发文档和帮助手册同样可作为部分参考.
 	 * <p>
-	 * (Hedy):550561954#qq.com
+	 * (Hedy):550561954#QQ.com
 	 * </p>
 	 * @author Hedy
 	 */

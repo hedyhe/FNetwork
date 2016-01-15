@@ -43,7 +43,7 @@ package com.myflexhero.network.core.layout
 	 * @see SpringLayout.autoFit
 	 * @see com.myflexhero.network.core.layout.TreeLayout
 	 * @author Hedy<br>
-	 * 550561954#qq.com 
+	 * 550561954#QQ.com  
 	 */
 	public class SpringLayout extends CustomLayout implements IForceDirectedLayout
 	{

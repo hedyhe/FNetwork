@@ -17,7 +17,7 @@ use namespace mx_internal;
 /**
  * 弹簧布局,目前还不是十分完善(目前的节点上下级围成的圈看起来不是很圆,包括速率的问题).
  * @author Hedy<br>
- * 550561954#qq.com 
+ * 550561954#QQ.com 
  */
 public class ForceDirectedLayout implements IForEachEdge,IForEachNode,IForEachNodePair /*implements Runnable */ {
 
