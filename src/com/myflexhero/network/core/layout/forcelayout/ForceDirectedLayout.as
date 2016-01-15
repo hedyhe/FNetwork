@@ -1,5 +1,3 @@
-
-
 package com.myflexhero.network.core.layout.forcelayout{
 
 import avmplus.USE_ITRAITS;
