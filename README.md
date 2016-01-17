@@ -5,7 +5,7 @@ It is recommend to wait until the project of FNetworkTest is built before procee
 Introduction：
 -----------------------------------  
 1、FNetwork可支持大规模节点(数千节点)拓扑关系实时运算并展示，主要支持网络拓扑关系、伪2D和逼真2D物理资源等展示<br />
-2、代码开发于2013年，因官方SDK版本更新较快，所以代码仍需完善<br />
+2、代码开发于2012年，因官方SDK版本更新较快，所以代码仍需完善<br />
 3、API文档请参见/docs/asdoc-api下的[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
 4、核心类为：[Network.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/Network.as)、[NodeUI.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/ui/NodeUI.as)、[SpringLayout.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/layout/SpringLayout.as)<br />
 5、更多示例参见FNetworkTest工程，简单示例如下：<br />
