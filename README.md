@@ -1,39 +1,39 @@
 # FNetwork
 ============
 FNetwork is Flex/Flash based professional network topology UI component in this field.<br>
-Introduction£º
+Introductionï¼š
 -----------------------------------  
-1¡¢FNetwork¿ÉÖ§³Ö´ó¹æÄ£½Úµã(ÊıÇ§½Úµã)ÍØÆË¹ØÏµÊµÊ±ÔËËã²¢Õ¹Ê¾£¬Ö÷ÒªÖ§³ÖÍøÂçÍØÆË¹ØÏµ¡¢Î±2DºÍ±ÆÕæ2DÎïÀí×ÊÔ´µÈÕ¹Ê¾<br />
-2¡¢´úÂë¿ª·¢ÓÚ2012Äê£¬Òò¹Ù·½SDK°æ±¾¸üĞÂ½Ï¿ì£¬½ØÖ¹16Äê1ÔÂ·İ£¬ÔÚ²âÊÔÓÃÀıÉÏÒÑ³öÏÖ²¿·Ö¼æÈİĞÔÎÊÌâĞèÍêÉÆ<br />
-3¡¢APIÎÄµµÇë²Î¼û/docs/asdoc-apiÏÂµÄ[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
-4¡¢ºËĞÄÀàÎª£º[Network.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/Network.as)¡¢[NodeUI.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/ui/NodeUI.as)¡¢[SpringLayout.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/layout/SpringLayout.as)<br />
-5¡¢¸ü¶àÊ¾Àı²Î¼ûFNetworkTest¹¤³Ì£¬¼òµ¥Ê¾ÀıÈçÏÂ£º<br />
+1ã€FNetworkå¯æ”¯æŒå¤§è§„æ¨¡èŠ‚ç‚¹(æ•°åƒèŠ‚ç‚¹)æ‹“æ‰‘å…³ç³»å®æ—¶è¿ç®—å¹¶å±•ç¤ºï¼Œä¸»è¦æ”¯æŒç½‘ç»œæ‹“æ‰‘å…³ç³»ã€ä¼ª2Då’Œé€¼çœŸ2Dç‰©ç†èµ„æºç­‰å±•ç¤º<br />
+2ã€ä»£ç å¼€å‘äº2012å¹´ï¼Œå› å®˜æ–¹SDKç‰ˆæœ¬æ›´æ–°è¾ƒå¿«ï¼Œæˆªæ­¢16å¹´1æœˆä»½ï¼Œåœ¨æµ‹è¯•ç”¨ä¾‹ä¸Šå·²å‡ºç°éƒ¨åˆ†å…¼å®¹æ€§é—®é¢˜éœ€å®Œå–„<br />
+3ã€APIæ–‡æ¡£è¯·å‚è§/docs/asdoc-apiä¸‹çš„[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
+4ã€æ ¸å¿ƒç±»ä¸ºï¼š[Network.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/Network.as)ã€[NodeUI.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/ui/NodeUI.as)ã€[SpringLayout.as](https://github.com/ihedy/FNetwork/blob/master/src/com/myflexhero/network/core/layout/SpringLayout.as)<br />
+5ã€æ›´å¤šç¤ºä¾‹å‚è§FNetworkTestå·¥ç¨‹ï¼Œç®€å•ç¤ºä¾‹å¦‚ä¸‹ï¼š<br />
 
-»æ»­2D·¿¼ä:<br />
+ç»˜ç”»2Dæˆ¿é—´:<br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/room.png) <br /><br />
-À­Éì¡¢ÒÆ¶¯ºó:<br />
+æ‹‰ä¼¸ã€ç§»åŠ¨å:<br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/room1.png) <br /><br />
-ÍøÂçÍØÆËÕ¹Ê¾£º<br />
+ç½‘ç»œæ‹“æ‰‘å±•ç¤ºï¼š<br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/spring.png) <br /><br />
 
-Performance Testing£º
+Performance Testingï¼š
 -----------------------------------  
-[MemoryTest.html(´ıÌá½»)](http://htmlpreview.github.io/?https://github.com/ihedy/FNetworkTest/blob/master/bin-release/MemoryTest.html)<br /><br />
-ÉÏÇ§½ÚµãĞ§¹ûÍ¼(2500+Nodes)£º
+[MemoryTest.html(å¾…æäº¤)](http://htmlpreview.github.io/?https://github.com/ihedy/FNetworkTest/blob/master/bin-release/MemoryTest.html)<br /><br />
+ä¸ŠåƒèŠ‚ç‚¹æ•ˆæœå›¾(2500+Nodes)ï¼š
 -----------------------------------  
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/test.png)<br /><br />
 
 <br/>
-Architecture Description£¨Last updated in 2012£©£º
-============  
-![](https://github.com/ihedy/FNetwork/raw/master/intro/1.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/3.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/4.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/5.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/6.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/7.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/8.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/9.JPG) <br />
+Architecture Descriptionï¼ˆLast updated in 2012ï¼‰ï¼š
+----------------------------------- 
+![](https://github.com/ihedy/FNetwork/raw/master/intro/1.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/3.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/4.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/5.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/6.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/7.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/8.JPG)  <br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/9.JPG)  <br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/10.JPG) <br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/11.JPG) <br />
