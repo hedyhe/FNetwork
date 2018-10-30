@@ -24,19 +24,17 @@ Performance Testing：
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/test.png)<br /><br />
 
 -----------------------------------  
-![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)<br /><br />
-
-<br/>
 Architecture Description（Last updated in 2012）：
------------------------------------ 
-![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/3.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/4.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/5.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/6.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/7.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/8.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/9.JPG)  <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/10.JPG) <br />
-![](https://github.com/ihedy/FNetwork/raw/master/intro/11.JPG) <br />
+-----------------------------------  
+![](https://github.com/ihedy/FNetwork/raw/master/intro/1.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/3.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/4.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/5.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/6.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/7.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/8.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/9.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/10.JPG)<br /><br />
+![](https://github.com/ihedy/FNetwork/raw/master/intro/11.JPG)<br /><br />
+
