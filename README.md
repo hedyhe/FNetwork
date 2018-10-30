@@ -26,7 +26,7 @@ Performance Testing：
 <br/>
 Architecture Description（Last updated in 2012）：
 ----------------------------------- 
-![](https://github.com/ihedy/FNetwork/raw/master/intro/1.JPG)  <br />
+![](https://raw.githubusercontent.com/ihedy/FNetwork/master/intro/1.JPG)  <br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/2.JPG)  <br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/3.JPG)  <br />
 ![](https://github.com/ihedy/FNetwork/raw/master/intro/4.JPG)  <br />
