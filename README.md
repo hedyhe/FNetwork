@@ -1,9 +1,7 @@
 # FNetwork #
 -----------------------------------  
-FNetwork is Flex/Flash based professional network topology UI component in this field.<br>
------------------------------------ 
-Introduction：
------------------------------------  
+FNetwork是基于Flex开发的大规模网络拓扑图形组件，可基于组件提供的SDK实现丰富的网络节点绘制和展示控制.<br>
+主要说明如下： <br>
 1、FNetwork可支持大规模节点(数千节点)拓扑关系实时运算并展示，主要支持网络拓扑关系、伪2D和逼真2D物理资源等展示<br />
 2、代码开发于2012年，因官方SDK版本更新较快，截止16年1月份，在测试用例上已出现部分兼容性问题需完善<br />
 3、API文档请参见/docs/asdoc-api下的[index.html](http://htmlpreview.github.io/?https://github.com/ihedy/FNetwork/blob/master/docs/asdoc-api/index.html)<br />
